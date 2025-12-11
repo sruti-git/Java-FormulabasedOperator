@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Length: ");
+    int Length=sc.nextInt();
+    System.out.println("Breadth: ");
+    int Breadth=sc.nextInt();
+    int result=2*Length*Breadth;
+    System.out.println("Perimeter of Recatngle:"+result);
+    }
+}
